@@ -17,5 +17,6 @@
 //배열 pop() 사용법 
 let arr = [1, 2, 3];
 let removedElement = arr.pop();
-console.log(removedElement);
 console.log(arr);
+console.log(removedElement);
+
