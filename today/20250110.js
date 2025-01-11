@@ -7,3 +7,4 @@ console.log(fruits);
 let numbers = [40, 1, 5, 200];
 numbers.sort();
 console.log(numbers);
+
