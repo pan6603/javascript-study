@@ -1,52 +1,41 @@
-// 키와 값 쌍
-// const person = {
-//     name: "John",
-//     age: 30, 
-//     isEmployed: true
-// };
-
-// console.log(person.name);
-// console.log(person["age"]);
-
-// const person = {
-//     name: "John",
-//     greet: function() {
-//         console.log("Hello, " + this.name);
-//     }
-// };
-
-// person.greet();
-
-//객체 수정하기 
-// let person = {
-//     name: 'John',
-//     age: 30,
-// };
-
-// person.age = 31; 
-// console.log(person);
-
-
-// 객체 추가하기 
-// let person = {
-//     name: 'John',
-//     age: 30
-// };
-
-// person.address = 'New York';
-// person['phone'] = '123-456-7890';
-
-// console.log(person);
-
-// 객체 삭제하기 
-let person = {
+const obj = {
     name: 'John',
-    age: 30, 
-    address: 'New York'
-};
+    age: 30
+}; 
 
-delete person.address;
-console.log(person);
+console.log(obj);
+
+// 객체 추가 방법 
+// 점 표기법
+obj.address = 'Seoul';
+console.log(obj);
+
+// 대괄호 표기법 
+obj['job'] = 'Developer';
+console.log(obj);
+
+// 객체 수정 방법 
+obj.age = 35; 
+console.log(obj.age);
+
+obj['name'] = 'Alice';
+console.log(obj.name);
+
+// 객체에서 속성 삭제 
+delete obj.address;
+console.log(obj);
+
+delete obj['job'];
+console.log(obj);
+
+// 속성 존재 여부 확인 
+console.log('name' in obj);
+console.log(obj.hasOwnProperty('age'));
+console.log(obj.hasOwnProperty('address'));
+
+
+
+
 
 
 
