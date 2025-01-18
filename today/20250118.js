@@ -1,0 +1,10 @@
+console.log(typeof 42);
+console.log(typeof "Hello");
+console.log(typeof true);
+console.log(undefined);
+console.log(typeof null);
+console.log(typeof { name: "John" });
+console.log(typeof [1, 2, 3]);
+console.log(typeof function() {});
+console.log(typeof Symbol("id"));
+console.log(typeof BigInt(10));
