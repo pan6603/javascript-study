@@ -1,7 +1,12 @@
-const number = 10; 
-const result = (number % 2 === 0) ? "짝수" : "홀수"; 
-console.log(result);
+const age = 20; 
+const message = (age >= 18) ? "성인입니다." : "미성년자입니다";
 
-const userRole = "admin";
-const accessMessage = (userRole === "admin") ? "관리자 접근 허용" : "일반 사용자";
-console.log(accessMessage);
+let message2; 
+if (age >= 18) {
+  message2 = "성인입니다.";
+} else {
+  message2 = "미성년자입니다";
+}
+
+console.log(message);
+console.log(message2);
